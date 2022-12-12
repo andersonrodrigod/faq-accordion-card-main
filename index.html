@@ -6,27 +6,77 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | FAQ Accordion Card</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <h3>How many team members can I invite?</h3>
-  <p>
-    You can invite up to 2 additional users on the Free plan. There is no limit on
-    team members for the Premium plan.
-  </p>
+  <main>
 
-  <h3>What is the maximum file upload size?</h3>
-  No more than 2GB. All files in your account must fit your allotted storage space.
+    <div class="card">
+      <section>
+        <div class="card-image">
+          <img src="images/illustration-woman-online-desktop.svg" min-width="900px" alt="">
+        </div>
+      </section>
 
-  <h3>How do I reset my password?</h3>
-  <p>
-    Click “Forgot password” from the login page or “Change password” from your profile page.
-    A reset link will be emailed to you.
-  </p>
-
-  <h3>Can I cancel my subscription?</h3>
-  <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-
-  <h3>Do you provide additional support?</h3>
-  <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      <section class="content">
+        <div class="card-title">
+          <h1>FAQ</h1>
+        </div>
+        <article class="box-content">
+          <div class="box-title">
+            <h2 class="but">How many team members can I invite?</h2>
+            <i class="fa-sharp fa-solid fa-chevron-down card-icon"></i>
+          </div>
+          <div class="box-paragrafo">
+            <p class="paragrafo">
+              You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.
+            </p>
+          </div>
+        </article>
+        <article class="box-content">
+          <div class="box-title">
+            <h2 class="but">What is the maximum file upload size?</h2>
+            <i class="fa-sharp fa-solid fa-chevron-down card-icon"></i>
+          </div>
+          <div class="box-paragrafo">
+            <p class="paragrafo">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </article>
+        <article class="box-content">
+          <div class="box-title">
+            <h2 class="but">How do I reset my password?</h2>
+            <i class="fa-sharp fa-solid fa-chevron-down card-icon"></i>
+          </div>
+          <div class="box-paragrafo">
+            <p class="paragrafo">Click “Forgot password” from the login page or “Change password” from your profile page</p>.
+          </div>
+        </article>
+        <article class="box-content">
+          <div class="box-title">
+            <h2 class="but">A reset link will be emailed to you.</h2>
+            <i class="fa-sharp fa-solid fa-chevron-down card-icon"></i>
+          </div>
+          <div class="box-paragrafo">
+            <p class="paragrafo">
+              Can I cancel my subscription?
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </div>
+        </article>
+        
+        <article class="box-content">
+          <div class="box-title">
+            <h2 class="but">Do you provide additional support?</h2>
+            <i class="fa-sharp fa-solid fa-chevron-down card-icon"></i>
+          </div>
+          <div class="box-paragrafo" id="mystyle">
+            <p class="paragrafo">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
