@@ -1,12 +1,15 @@
-const question = document.querySelectorAll(".box-content")
+const box = document.querySelectorAll(".box-content")
 
-question.forEach(function(item) {
-    const write = document.querySelector(".but")
-    write.addEventListener("click", function() {
-        question.forEach(function(back) {
-            if(back !== item) {
-                item.classList.remove("paragrafo")
+box.forEach(function(item) {
+    const btn = item.querySelector(".but")
+    const p = item.querySelectorAll(".paragrafo")
+    btn.addEventListener("click", function() {
+        p.forEach(function(e) {
+            if(e !== item) {
+                e.classList.remove(".paragrafo")
             }
+            e.classList.toggle("paragrafo")
         })
+        
     })
 })

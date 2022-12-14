@@ -108,9 +108,15 @@ body {
     font-weight: 700;
 }
 
+.pa {
+    font-size: 0.8rem;
+}
+
 .paragrafo {
     font-size: 0.8rem;
     transition: .3s;
+    height: 0;
+    overflow: hidden;
     
 }
 
